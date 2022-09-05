@@ -1,30 +1,3 @@
-
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@ikeraguero
-gustavokubiack /
-livraria
-Public
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-
-    Insights
-
-livraria/.gitignore
-@gustavokubiack
-gustavokubiack configurações básicas da aplicação e criação das models categoria e e…
-Latest commit f11adff 7 days ago
-History
-1 contributor
-281 lines (212 sloc) 6.17 KB
 # Created by https://www.toptal.com/developers/gitignore/api/django,python,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=django,python,visualstudiocode
 
@@ -306,19 +279,4 @@ cython_debug/
 *.code-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/django,python,visualstudiocode
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-
-    Terms
-    Privacy
-    Security
-    Status
-    Docs
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
 
