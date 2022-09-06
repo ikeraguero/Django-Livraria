@@ -1,3 +1,2 @@
 # Django-Livraria
-
-https://projeto-iker.herokuapp.com/
+https://iker-library.herokuapp.com/
