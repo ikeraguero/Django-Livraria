@@ -1,2 +1,2 @@
 # Django-Livraria
-https://iker-library.herokuapp.com/
+https://iker-livraria.herokuapp.com/
