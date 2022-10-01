@@ -1,4 +1,14 @@
+
 from django.contrib import admin
+from django.contrib.auth.admin import UserAdmin
+from django.utils.translation import gettext_lazy as _
+
+from core.models import Autor, Categoria, Editora, Livro, Usuario
+
+admin.site.register(Categoria)
+admin.site.register(Editora)
+admin.site.register(Autor)
+admin.site.register(Livro)
 
 class UsuarioAdmin(UserAdmin):
     fieldsets = (
@@ -19,14 +29,4 @@ class UsuarioAdmin(UserAdmin):
         (_("Important dates"), {"fields": ("last_login", "date_joined")}),
     )
 
-# Register your models here.
-
-from core.models import Categoria, Editora, Autor, Livro
-admin.site.register(Categoria)
-admin.site.register(Editora)
-admin.site.register(Autor)
-admin.site.register(Livro)
-
-
-
-
+admin.site.register(Usuario, UsuarioAdmin)
